@@ -143,6 +143,10 @@ html {
 .sobremi .fila .col {
     width: 50%;
 }
+.sobremi .fila .col a {
+    text-decoration: none;
+    color: #fff;
+}
 .sobremi .fila .col h3 {
     font-size: 28px;
     font-family: 'Righteous';
@@ -589,6 +593,10 @@ html {
     max-width: 350px;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.contacto .col .info a {
+    text-decoration: none;
+    color: #fff;
 }
 .contacto .col .info ul {
     list-style: none;
