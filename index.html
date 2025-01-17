@@ -17,15 +17,15 @@
             </div>
             <nav id="nav">
                 <ul>
-                    <li><a href="#inicio"> INICIO</a></li>
-                    <li><a href="#sobremi"> SOBRE MI</a></li>
-                    <li><a href="#habilidades"> HABILIDADES</a></li>
-                    <li><a href="#curriculum"> CURRICULUM</a></li>
-                    <li><a href="#portafolio"> PORTAFOLIO</a></li>
-                    <li><a href="#contacto"> CONTACTO</a></li>
+                    <li><a href="#inicio" onclick="seleccionar()"> INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()"> SOBRE MI</a></li>
+                    <li><a href="#habilidades" onclick="seleccionar()"> HABILIDADES</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()"> CURRICULUM</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()"> PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()"> CONTACTO</a></li>
                 </ul>
             </nav>
-            <div class="nav-responsive">
+            <div class="nav-responsive"onclick="mostrarOcultarMenu()">
                 <i class="fa-solid fa-bars"></i>
             </div>
         </header>
@@ -143,7 +143,7 @@
                     <div class="habilidad">
                         <span>Javascript</span>
                         <div class="barra-habilidad">
-                            <div class="progreso javascript">
+                            <div class="progreso">
                                 <span>75%</span>
                             </div>
                         </div>
@@ -151,7 +151,7 @@
                     <div class="habilidad">
                         <span>Wordpress</span>
                         <div class="barra-habilidad">
-                            <div class="progreso wordpress">
+                            <div class="progreso">
                                 <span>65%</span>
                             </div>
                         </div>
@@ -159,7 +159,7 @@
                     <div class="habilidad">
                         <span>MYSQL</span>
                         <div class="barra-habilidad">
-                            <div class="progreso mysql">
+                            <div class="progreso">
                                 <span>80%</span>
                             </div>
                         </div>
@@ -167,7 +167,7 @@
                     <div class="habilidad">
                         <span>HTML & CSS</span>
                         <div class="barra-habilidad">
-                            <div class="progreso htmlcss">
+                            <div class="progreso">
                                 <span>60%</span>
                             </div>
                         </div>
@@ -175,7 +175,7 @@
                     <div class="habilidad">
                         <span>Laravel</span>
                         <div class="barra-habilidad">
-                            <div class="progreso laravel">
+                            <div class="progreso">
                                 <span>70%</span>
                             </div>
                         </div>
@@ -187,7 +187,7 @@
                     <div class="habilidad">
                         <span>Trabajo en Equipo</span>
                         <div class="barra-habilidad">
-                            <div class="progreso trabajoequipo">
+                            <div class="progreso">
                                 <span>85%</span>
                             </div>
                         </div>
@@ -195,7 +195,7 @@
                     <div class="habilidad">
                         <span>Dedicación</span>
                         <div class="barra-habilidad">
-                            <div class="progreso dedicacion">
+                            <div class="progreso">
                                 <span>90%</span>
                             </div>
                         </div>
@@ -203,7 +203,7 @@
                     <div class="habilidad">
                         <span>Creatividad</span>
                         <div class="barra-habilidad">
-                            <div class="progreso creatividad">
+                            <div class="progreso">
                                 <span>70%</span>
                             </div>
                         </div>
@@ -211,7 +211,7 @@
                     <div class="habilidad">
                         <span>Comunicación</span>
                         <div class="barra-habilidad">
-                            <div class="progreso comunicacion">
+                            <div class="progreso">
                                 <span>83%</span>
                             </div>
                         </div>
@@ -219,7 +219,7 @@
                     <div class="habilidad">
                         <span>Puntualidad</span>
                         <div class="barra-habilidad">
-                            <div class="progreso puntualidad">
+                            <div class="progreso">
                                 <span>94%</span>
                             </div>
                         </div>
@@ -399,5 +399,8 @@
             <a href="#"><i class="fab fa-instagram"></i></a>
         </div>
      </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
 </body>
 </html>
