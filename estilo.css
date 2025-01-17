@@ -678,6 +678,10 @@ footer .arriba {
     .sobremi .fila .col {
         width: fit-content;
     }
+    .sobremi .fila .contenedor-intereses{
+        padding-left: 65px;
+    }
+
 
     /* Seccion de habilidades */
     .habilidades .fila {
@@ -695,7 +699,7 @@ footer .arriba {
         display: block;
     }
     .curriculum .fila .col {
-        width: 90%;
+        width: 95%;
     }
     .curriculum .fila .derecha {
         margin-left: 20px;
