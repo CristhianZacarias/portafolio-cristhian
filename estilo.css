@@ -286,55 +286,87 @@ html {
 }
 @keyframes javascript {
     0%{width: 0%;}
-    100%{width: 75%;}
-}
-.habilidades .habilidad .wordpress {
-    width:  0%;
-    animation: 2s wordpress forwards;
-}
-@keyframes wordpress {
-    0%{width: 0%;}
-    100%{width: 65%;}
-}
-.habilidades .habilidad .mysql {
-    width:  0%;
-    animation: 2s mysql forwards;
-}
-@keyframes mysql {
-    0%{width: 0%;}
-    100%{width: 80%;}
-}
-.habilidades .habilidad .htmlcss {
-    width:  0%;
-    animation: 2s htmlcss forwards;
-}
-@keyframes htmlcss {
-    0%{width: 0%;}
-    100%{width: 60%;}
-}
-.habilidades .habilidad .laravel {
-    width:  0%;
-    animation: 2s laravel forwards;
-}
-@keyframes laravel {
-    0%{width: 0%;}
     100%{width: 70%;}
 }
-.habilidades .habilidad .trabajoequipo {
+.habilidades .habilidad .html {
     width:  0%;
-    animation: 2s trabajoequipo forwards;
+    animation: 2s html forwards;
 }
-@keyframes trabajoequipo {
+@keyframes html {
     0%{width: 0%;}
     100%{width: 85%;}
 }
-.habilidades .habilidad .dedicacion {
+.habilidades .habilidad .css {
     width:  0%;
-    animation: 2s dedicacion forwards;
+    animation: 2s css forwards;
 }
-@keyframes dedicacion {
+@keyframes css {
     0%{width: 0%;}
-    100%{width: 90%;}
+    100%{width: 70%;}
+}
+.habilidades .habilidad .php {
+    width:  0%;
+    animation: 2s php forwards;
+}
+@keyframes php {
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+.habilidades .habilidad .laravelphp {
+    width:  0%;
+    animation: 2s laravelphp forwards;
+}
+@keyframes laravelphp {
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+.habilidades .habilidad .sqlynosql {
+    width:  0%;
+    animation: 2s sqlynosql forwards;
+}
+@keyframes sqlynosql {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+.habilidades .habilidad .bootstrap {
+    width:  0%;
+    animation: 2s boostrap forwards;
+}
+@keyframes boostrap {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+.habilidades .habilidad .github {
+    width:  0%;
+    animation: 2s github forwards;
+}
+@keyframes github {
+    0%{width: 0%;}
+    100%{width: 65%;}
+}
+.habilidades .habilidad .compromiso {
+    width:  0%;
+    animation: 2s compromiso forwards;
+}
+@keyframes compromiso {
+    0%{width: 0%;}
+    100%{width: 95%;}
+}
+.habilidades .habilidad .interes {
+    width:  0%;
+    animation: 2s interes forwards;
+}
+@keyframes interes {
+    0%{width: 0%;}
+    100%{width: 100%;}
+}
+.habilidades .habilidad .responsabilidad {
+    width:  0%;
+    animation: 2s responsabilidad forwards;
+}
+@keyframes responsabilidad {
+    0%{width: 0%;}
+    100%{width: 100%;}
 }
 .habilidades .habilidad .creatividad {
     width:  0%;
@@ -342,15 +374,23 @@ html {
 }
 @keyframes creatividad {
     0%{width: 0%;}
-    100%{width: 70%;}
+    100%{width: 85%;}
 }
-.habilidades .habilidad .comunicacion {
+.habilidades .habilidad .trabajoenequipo {
     width:  0%;
-    animation: 2s comunicacion forwards;
+    animation: 2s trabajoenequipo forwards;
 }
-@keyframes comunicacion {
+@keyframes trabajoenequipo {
     0%{width: 0%;}
-    100%{width: 83%;}
+    100%{width: 95%;}
+}
+.habilidades .habilidad .organizacion {
+    width:  0%;
+    animation: 2s organizacion forwards;
+}
+@keyframes organizacion {
+    0%{width: 0%;}
+    100%{width: 100%;}
 }
 .habilidades .habilidad .puntualidad {
     width:  0%;
@@ -358,7 +398,15 @@ html {
 }
 @keyframes puntualidad {
     0%{width: 0%;}
-    100%{width: 94%;}
+    100%{width: 100%;}
+}
+.habilidades .habilidad .comunicacion {
+    width:  0%;
+    animation: 2s comunicacion forwards;
+}
+@keyframes comunicacion {
+    0%{width: 0%;}
+    100%{width: 85%;}
 }
 
 /* Seccion curriculum */

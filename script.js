@@ -23,15 +23,21 @@ function efectoskills() {
     if(distancia_skills >= 300){
         let skills = document.getElementsByClassName("progreso");
         skills[0].classList.add("javascript");
-        skills[1].classList.add("wordpress");
-        skills[2].classList.add("mysql");
-        skills[3].classList.add("htmlcss");
-        skills[4].classList.add("laravel");
-        skills[5].classList.add("trabajoequipo");
-        skills[6].classList.add("dedicacion");
-        skills[7].classList.add("creatividad");
-        skills[8].classList.add("comunicacion");
-        skills[9].classList.add("puntualidad");
+        skills[1].classList.add("html");
+        skills[2].classList.add("css");
+        skills[3].classList.add("php");
+        skills[4].classList.add("laravelphp");
+        skills[5].classList.add("sqlynosql");
+        skills[6].classList.add("bootstrap");
+        skills[7].classList.add("github");
+        skills[8].classList.add("compromiso");
+        skills[9].classList.add("interes");
+        skills[10].classList.add("responsabilidad");
+        skills[11].classList.add("creatividad");
+        skills[12].classList.add("trabajoenequipo");
+        skills[13].classList.add("organizacion");
+        skills[14].classList.add("puntualidad");
+        skills[15].classList.add("comunicacion");
     }
 }
 
