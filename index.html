@@ -303,45 +303,45 @@
             <h2>Portafolio</h2>
             <div class="galeria">
                 <div class="proyecto">
-                    <img src="img/carrito.jpg" alt="">
+                    <img src="img/software.jpg" alt="">
                     <div class="overlay">
-                        <h3>Carrito de Compras</h3>
-                        <p>Ventas</p>
-                    </div>
-                </div>
-                <div class="proyecto">
-                    <img src="img/aplicacion.jpeg" alt="">
-                    <div class="overlay">
-                        <h3>Sistema Web</h3>
-                        <p>Ventas</p>
-                    </div>
-                </div>
-                <div class="proyecto">
-                    <img src="img/ecommerce.jpg" alt="">
-                    <div class="overlay">
-                        <h3>E-commerce</h3>
-                        <p>Ventas</p>
+                        <h3>En progreso</h3>
+                        <p>Estamos trabajando </p>
                     </div>
                 </div>
                 <div class="proyecto">
                     <img src="img/software.jpg" alt="">
                     <div class="overlay">
-                        <h3>Pagina Web</h3>
-                        <p>Ventas</p>
+                        <h3>En progreso</h3>
+                        <p>Estamos trabajando</p>
                     </div>
                 </div>
                 <div class="proyecto">
-                    <img src="img/crm.png" alt="">
+                    <img src="img/software.jpg" alt="">
                     <div class="overlay">
-                        <h3>CRM</h3>
-                        <p>Ventas</p>
+                        <h3>En progreso</h3>
+                        <p>Estamos trabajando</p>
                     </div>
                 </div>
                 <div class="proyecto">
-                    <img src="img/images.jpg" alt="">
+                    <img src="img/software.jpg" alt="">
                     <div class="overlay">
-                        <h3>Programación</h3>
-                        <p>Ventas</p>
+                        <h3>En progreso</h3>
+                        <p>Estamos trabajando</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/software.jpg" alt="">
+                    <div class="overlay">
+                        <h3>En progreso</h3>
+                        <p>Estamos trabajando</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/software.jpg" alt="">
+                    <div class="overlay">
+                        <h3>En progreso</h3>
+                        <p>Estamos trabajando</p>
                     </div>
                 </div>
             </div>
@@ -354,15 +354,33 @@
             <div class="fila">
                 <!-- Formulario -->
                 <div class="col">
-                    <input type="text" name="Nombre:" id="" placeholder="Nombre">
-                    <input type="tel" name="Teléfono:" id="" placeholder="Teléfono">
-                    <input type="email" name="Correo Electrónico:" id="" placeholder="Correo electrónico">
-                    <input type="text" name="Asunto" id="" placeholder="Asunto">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                    <button>
-                        Enviar Mensaje <i class="fas fa-paper-plane"></i>
-                        <span class="overlay"></span>
-                    </button>
+                    <form action="/" id="form" onsubmit="return validateForm()">
+                        <div class="input-control">
+                            <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                            <div class="error" name="nombre-error" id="nombre-error"></div>
+                        </div>
+                        <div class="input-control">
+                            <input type="tel" name="telefono:" id="telefono" placeholder="Teléfono">
+                            <div class="error" name="telefono-error" id="telefono-error"></div>
+                        </div>
+                        <div class="input-control">
+                            <input type="email" name="correo" id="correo" placeholder="Correo electrónico">
+                            <div class="error" name="correo-error" id="correo-error"></div>
+                        </div>
+                        <div class="input-control">
+                            <input type="text" name="asunto" id="asunto" placeholder="Asunto">
+                            <div class="error" name="asunto-error" id="asunto-error"></div>
+                        </div>
+                        <div class="input-control">
+                            <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                            <div class="error" name="mensaje-error" id="mensaje-error"></div>
+                        </div>
+
+                        <button type="submit">
+                            Enviar Mensaje <i class="fas fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </form>
                 </div>
                 <!-- Mapa -->
                  <div class="col">

@@ -39,3 +39,48 @@ function efectoskills() {
 window.onscroll = function() {
     efectoskills();
 }
+
+
+function validateForm(){
+    const nombre = document.getElementById('nombre').value;
+    const telefono = document.getElementById('telefono').value;
+    const correo = document.getElementById('correo').value;
+    const asunto = document.getElementById('asunto').value;
+    const mensaje = document.getElementById('mensaje').value;
+
+    document.getElementById('nombre-error').innerHTML = "";
+    document.getElementById('telefono-error').innerHTML = "";
+    document.getElementById('correo-error').innerHTML = "";
+    document.getElementById('asunto-error').innerHTML = "";
+    document.getElementById('mensaje-error').innerHTML = "";
+
+    let isValid = true;
+
+    if(nombre === "") {
+        document.getElementById('nombre-error').innerHTML = '* El campo "Nombre" es obligatorio';
+        isValid = false;
+    }
+
+    if(telefono === "") {
+        document.getElementById('telefono-error').innerHTML = '*El campo "Telefono" es obligatorio';
+        isValid = false;
+    }
+
+    if(correo === "") {
+        document.getElementById('correo-error').innerHTML = '*El campo "Correo" es obligatorio';
+        isValid = false;
+    }
+
+    if(asunto === "") {
+        document.getElementById('asunto-error').innerHTML = '*El campo "Asunto" es obligatorio';
+        isValid = false;
+    }
+
+    if(mensaje === "") {
+        document.getElementById('mensaje-error').innerHTML = '*El campo "Mensaje" es obligatorio';
+        isValid = false;
+    }
+
+
+    return isValid;
+}

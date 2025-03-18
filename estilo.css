@@ -556,6 +556,7 @@ html {
     color: #fff;
     font-size: 18px;
 }
+
 .contacto button {
     cursor: pointer;
     background-color: transparent;
@@ -650,6 +651,12 @@ footer .arriba {
     border-radius: 50%;
     line-height: 50px;
     font-size: 18px;
+}
+
+.contacto .col .error {
+    color: #cf1714;
+    font-size: 12px;
+    
 }
 
 /* Reponsivo Encabezado */
